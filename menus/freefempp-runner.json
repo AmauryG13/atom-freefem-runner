@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle freefempp-runner",
+        "command": "freefempp-runner:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "freefempp-runner",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "freefempp-runner:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
