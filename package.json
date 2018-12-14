@@ -10,7 +10,7 @@
   ],
   "activationCommands": {
     "atom-workspace": "freefempp-runner:toggle",
-    "atom-text-editor": "freefempp-runner:run"
+    "atom-workspace": "freefempp-runner:run"
   },
   "repository": "https://github.com/atom/freefempp-runner",
   "license": "MIT",
