@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle freefempp-runner",
-        "command": "freefempp-runner:toggle"
+        "label": "Run FreeFem++ script",
+        "command": "freefempp-runner:run"
       }
     ]
   },
@@ -12,11 +12,15 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "freefempp-runner",
+          "label": "FreeFem++ Runner",
           "submenu": [
             {
               "label": "Toggle",
               "command": "freefempp-runner:toggle"
+            },
+            {
+              "label": "Run",
+              "command": "freefempp-runner:run"
             }
           ]
         }

@@ -1,12 +1,16 @@
 {
   "name": "freefempp-runner",
   "main": "./lib/freefempp-runner",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "A small package to run FreeFem++ scripts in Atom",
   "keywords": [
+      "freefem++",
+      "script",
+      "runner"
   ],
   "activationCommands": {
-    "atom-workspace": "freefempp-runner:toggle"
+    "atom-workspace": "freefempp-runner:toggle",
+    "atom-text-editor": "freefempp-runner:run"
   },
   "repository": "https://github.com/atom/freefempp-runner",
   "license": "MIT",
