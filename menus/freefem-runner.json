@@ -20,7 +20,7 @@
             },
             {
               "label": "Launch compilation",
-              "command": "freefem-runner:run"
+              "command": "freefem-runner:compile"
             }
           ]
         }

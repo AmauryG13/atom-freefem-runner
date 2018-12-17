@@ -12,7 +12,7 @@
   ],
   "activationCommands": {
     "atom-workspace": "freefem-runner:toggle",
-    "atom-workspace": "freefem-runner:run"
+    "atom-workspace": "freefem-runner:compile"
   },
   "repository": "https://github.com/AmauryG13/atom-freefem-runner",
   "license": "MIT",
