@@ -1,22 +1,25 @@
 {
-  "name": "freefempp-runner",
-  "main": "./lib/freefempp-runner",
+  "name": "atom-freefem-runner",
+  "main": "./lib/freefem-runner",
   "version": "0.1.0",
   "description": "A small package to run FreeFem++ scripts in Atom",
   "keywords": [
-      "freefem++",
-      "script",
-      "runner"
+    "freefem++",
+    "script",
+    "runner",
+    "atom",
+    "output"
   ],
   "activationCommands": {
-    "atom-workspace": "freefempp-runner:toggle",
-    "atom-workspace": "freefempp-runner:run"
+    "atom-workspace": "freefem-runner:run"
   },
-  "repository": "https://github.com/atom/freefempp-runner",
+  "repository": "https://github.com/AmauryG13/atom-freefem-runner",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "etch": "^0.14.0",
+    "etch-dom": "^1.0.0"
   }
 }

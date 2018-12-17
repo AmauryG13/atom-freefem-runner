@@ -2,7 +2,7 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Run FreeFem++ script",
+        "label": "Launch compilation for this file",
         "command": "freefempp-runner:run"
       }
     ]
@@ -15,11 +15,11 @@
           "label": "FreeFem++ Runner",
           "submenu": [
             {
-              "label": "Toggle",
+              "label": "Show compilation output",
               "command": "freefempp-runner:toggle"
             },
             {
-              "label": "Run",
+              "label": "Launch compilation",
               "command": "freefempp-runner:run"
             }
           ]
