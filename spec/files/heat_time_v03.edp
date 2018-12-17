@@ -1,0 +1,38 @@
+/* Solving the time-dependent heat equation
+in an annular domain
++ mesh adaptivity
+with Dirichlet and Fourier boundary conditions
+ to build the mesh
+use directly the code from ../mesh/mesh_circle_v03.edp */
+
+include "mesh/mesh_circle_v03.edp";
+
+// FE space
+fespace Vh(Th, P1);
+// Variational (weak formulation)
+Vh u,v;    // u=unknown, v=test function
+
+real uhot=10, alpha=10;
+
+//Time-evolution formulation
+real tmax=0.5, dt=0.01, idt=1./dt;
+Vh uold=0;
+macro grad(u) [dx(u), dy(u)]//EOM
+problem HeatTime(u,v)=int2d(Th)(idt*u*v)-int2d(Th)(idt*uold*v)
+                    +int2d(Th)(grad(u)'*grad(v))
+                    +int1d(Th,1)(alpha*u*v)//from Fourier bc
+                    +on(2, u=uhot); // Dirichlet bc
+
+//Time loop
+real t=0; verbosity=0;
+real errorAdapt=0.01;
+while (t <= tmax)
+{
+   t+=dt;
+   HeatTime;
+   plot(Th,u,dim=2,cmm="Time t="+t,fill=0);
+   cout<<"Time="<< t<<"  Max(u) ="<<u[].max<<"  Min(u) ="<<u[].min<<endl;
+Th=adaptmesh(Th,u,uold,inquire=1,err=errorAdapt,iso=1);
+u=u;
+uold=u;
+}
