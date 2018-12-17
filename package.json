@@ -1,5 +1,5 @@
 {
-  "name": "atom-freefem-runner",
+  "name": "freefem-runner",
   "main": "./lib/freefem-runner",
   "version": "0.1.0",
   "description": "A small package to run FreeFem++ scripts in Atom",
