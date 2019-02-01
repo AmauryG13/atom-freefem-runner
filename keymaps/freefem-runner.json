@@ -1,6 +1,12 @@
 {
-  "atom-workspace": {
+  ".plateform-win32 atom-workspace, .plateform-linux atom-workspace": {
     "ctrl-alt-o": "freefem-runner:toggle",
     "ctrl-alt-f": "freefem-runner:compile"
-  }
+  },
+
+  ".plateform-win32 atom-workspace, .plateform-linux atom-workspace": {
+    "cmd-alt-o": "freefem-runner:toggle",
+    "cmd-alt-f": "freefem-runner:compile"
+  },
+
 }
