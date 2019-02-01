@@ -8,7 +8,7 @@ It also needs to be in your PATH.
 If not:
 > Register the path of the FreeFem++ executable in the package config
 
-## Runnin a .edp file
+## Running a .edp file
 FreeFem ++ Runner only launches .edp file.
 
 This is 3 different ways to run the compilation :
@@ -33,8 +33,10 @@ Indeed, window displaying from the sotfware (medit or plot) is stoping output di
 If anything is going wrong, don't hesitate to open a new issue.
 
 If you're willing to contribute, feel free.
-> I just ask you to create a new branch called something like feature/<your-feature>
+> I just ask you to create a new branch called something like feature/<<your-feature>>
 
 *Hope you enjoy using this package*
+
 *Cheers*
+
 Amaury
