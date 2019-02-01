@@ -1,6 +1,0 @@
-{
-  "atom-workspace": {
-    "ctrl-alt-o": "freefempp-runner:toggle",
-    "ctrl-alt-f": "freefempp-runner:run"
-  }
-}

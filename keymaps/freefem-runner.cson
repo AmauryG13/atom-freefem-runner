@@ -1,0 +1,14 @@
+# Keybindings require three things to be fully defined: A selector that is
+# matched against the focused element, the keystroke and the command to
+# execute.
+#
+# Below is a basic keybinding which registers on all platforms by applying to
+# the root workspace element.
+
+'.platform-darwin atom-text-editor':
+  'cmd-alt-f': 'freefem-runner:compile'
+  'cmd-alt-o': 'freefem-runner:toggle'
+
+'.platform-win32 atom-text-editor':
+  'ctrl-alt-f': 'freefem-runner:compile'
+  'ctrl-alt-o': 'freefem-runner:toggle'
