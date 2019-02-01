@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Launch compilation for this file",
-        "command": "freefem-runner:run"
+        "command": "freefem-runner:compile"
       }
     ]
   },

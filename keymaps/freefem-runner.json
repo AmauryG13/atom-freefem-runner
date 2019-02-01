@@ -7,6 +7,5 @@
   ".plateform-win32 atom-workspace, .plateform-linux atom-workspace": {
     "cmd-alt-o": "freefem-runner:toggle",
     "cmd-alt-f": "freefem-runner:compile"
-  },
-
+  }
 }
