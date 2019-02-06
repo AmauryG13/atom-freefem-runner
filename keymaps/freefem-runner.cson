@@ -12,3 +12,7 @@
 '.platform-win32 atom-text-editor':
   'ctrl-alt-f': 'freefem-runner:compile'
   'ctrl-alt-o': 'freefem-runner:toggle'
+
+'.platform-linux atom-text-editor':
+  'ctrl-alt-f': 'freefem-runner:compile'
+  'ctrl-alt-o': 'freefem-runner:toggle'
