@@ -1,19 +1,19 @@
-# FreeFem++ Runner
-This package is a small plugin for running FreeFem++ file (.edp) from Atom editor.
+# FreeFEM Runner
+This package is a small plugin for running FreeFEM file (.edp) from Atom editor.
 
 ## Configuration
-By default, the FreeFem++ software needs to be install on your computer.
+By default, the FreeFEM software needs to be install on your computer (see the [FreeFEM documentation](https://doc.freefem.org/introduction/installation.html)).
 It also needs to be in your PATH.
 
 If not:
-> Register the path of the FreeFem++ executable in the package config
+> Register the path of the FreeFEM executable (namely FreeFem++) in the package config
 
 ## Running a .edp file
-FreeFem ++ Runner only launches .edp file.
+FreeFEM Runner only launches .edp file.
 
 This is 3 different ways to run the compilation :
 * In the package list dropdown !
-> In FreeFem++ Runner tab, "Launch compilation" tag is available
+> In FreeFEM Runner tab, "Launch compilation" tag is available
 
 * On the text editor directly
 > Right click on your code tab, in the menu a "Launch compilation for this file" tag is clickable

@@ -12,7 +12,7 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "FreeFem++ Runner",
+          "label": "FreeFEM Runner",
           "submenu": [
             {
               "label": "Show compilation output",
