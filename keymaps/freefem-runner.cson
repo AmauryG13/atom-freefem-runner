@@ -6,13 +6,17 @@
 # the root workspace element.
 
 '.platform-darwin atom-text-editor':
-  'cmd-alt-f': 'freefem-runner:compile'
   'cmd-alt-o': 'freefem-runner:toggle'
+  'cmd-alt-f': 'freefem-runner:compile'
+  'cmd-space-f': 'freefem-runner:stop'
 
 '.platform-win32 atom-text-editor':
-  'ctrl-alt-f': 'freefem-runner:compile'
   'ctrl-alt-o': 'freefem-runner:toggle'
+  'ctrl-alt-f': 'freefem-runner:compile'
+  'ctrl-space-f': 'freefem-runner:stop'
+
 
 '.platform-linux atom-text-editor':
-  'ctrl-alt-f': 'freefem-runner:compile'
   'ctrl-alt-o': 'freefem-runner:toggle'
+  'ctrl-alt-f': 'freefem-runner:compile'
+  'ctrl-space-f': 'freefem-runner:stop'

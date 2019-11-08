@@ -2,8 +2,12 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Launch compilation for this file",
+        "label": "Launch FreeFem compilation for this file",
         "command": "freefem-runner:compile"
+      },
+      {
+        "label": "Stop FreeFem compilation for this file",
+        "command": "freefem-runner:stop"
       }
     ]
   },
@@ -21,6 +25,10 @@
             {
               "label": "Launch compilation",
               "command": "freefem-runner:compile"
+            },
+            {
+              "label": "Stop compilation",
+              "command": "freefem-runner:stop"
             }
           ]
         }
