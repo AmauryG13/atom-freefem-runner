@@ -1,7 +1,7 @@
 {
   "name": "freefem-runner",
   "main": "./lib/freefem-runner",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "A small package to run FreeFEM scripts in Atom",
   "keywords": [
     "freefem",
